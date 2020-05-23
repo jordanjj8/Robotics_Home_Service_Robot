@@ -10,6 +10,8 @@ Final Project Home Service Robot for [Robotics Software Engineer Nanodegree Prog
   
   First off, SLAM was used to create a functional map of the environment. The map of the environment would then be used for localization and navigating. A ROS navigation stack was then used to plan out the robot trajectory with a specified start and goal position. Finally, markers were created at the pickup and dropoff locations (start and end positions) to simulate a home service! The robot is responsible of picking up an object (cube in this case) and deliver the cube to the dropoff zone. Two packages were created to make this happen simultaneuously. Look at the links at the end of the document for further documentation. 
   
+Refer to this [link](https://www.youtube.com/watch?v=iQusbfpHhHA) for a video of the project in action!
+
 ## Requirements 
 * [Gazebo](http://gazebosim.org/) any version later than v7.0.0 
 * ROS Kinetic -follow instructions here: [ROS Installation Instructions](http://wiki.ros.org/ROS/Installation)
