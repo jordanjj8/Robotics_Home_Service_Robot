@@ -9,8 +9,11 @@ add_compile_options(-std=c++11)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   actionlib
+  genmsg
+  std_msgs
   move_base_msgs
   roscpp
+  #add_markers
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,7 +53,7 @@ find_package(catkin REQUIRED COMPONENTS
 # add_message_files(
 #   FILES
 #   Message1.msg
-#   Message2.msg
+#  Message2.msg
 # )
 
 ## Generate services in the 'srv' folder
@@ -68,10 +71,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
+#generate_messages(
 #   DEPENDENCIES
-#   move_base_msgs
-# )
+#   std_msgs
+#)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -134,6 +137,7 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/pick_objects_node.cpp)
+
 add_executable(pick_objects src/pick_objects.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
