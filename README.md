@@ -2,7 +2,8 @@
 Final Project Home Service Robot for [Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209)
 
 ## Overview 
-  This project involves programming a robot to map out an environment and autonomously navigate itself to pick and deliver objects. Multiple packages, ROS offical packages, along with packages I created myself, were used to make this project happen. 
+  This project involves programming a robot to map out an environment and autonomously navigate itself to pick and deliver objects. Multiple packages, ROS offical packages, along with packages I created myself, were used to make this project happen.
+  
   First off, SLAM was used to create a functional map of the environment. The map of the environment would then be used for localization and navigating. A ROS navigation stack was then used to plan out the robot trajectory with a specified start and goal position. Finally, markers were created at the pickup and dropoff locations (start and end positions) to simulate a home service! The robot is responsible of picking up an object (cube in this case) and deliver the cube to the dropoff zone. Two packages were created to make this happen simultaneuously. Look at the links at the end of the document for further documentation. 
   
 ## Requirements 
