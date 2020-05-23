@@ -57,10 +57,17 @@ Recommended Virtual Machine Alternative Specs:
 ```
 ## Related Links
 http://wiki.ros.org/gmapping
+
 http://wiki.ros.org/turtlebot_teleop
+
 http://wiki.ros.org/turtlebot_rviz_launchers
+
 http://wiki.ros.org/turtlebot_gazebo
+
 http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals
+
 http://wiki.ros.org/rviz/Tutorials/Markers%3A%20Basic%20Shapes
+
 http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+
 
