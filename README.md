@@ -1,6 +1,10 @@
 # Robotics_Home_Service_Robot
 Final Project Home Service Robot for [Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209)
 
+![Start Position](https://github.com/jordanjj8/Robotics_Home_Service_Robot/blob/master/start.JPG)
+
+![Dropoff Location Reached](https://github.com/jordanjj8/Robotics_Home_Service_Robot/blob/master/End.JPG)
+
 ## Overview 
   This project involves programming a robot to map out an environment and autonomously navigate itself to pick and deliver objects. Multiple packages, ROS offical packages, along with packages I created myself, were used to make this project happen.
   
